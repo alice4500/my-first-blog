@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alice H. Xue | Student</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="portfoliostyle.css">
+    <script src="navigation.js" type="text/javascript"></script>
+    <script>
+      $(document).on('click', 'b' , function(event){
+        event.preventDefault();
+
+        $('html, body').animate(
+          scrolltop: $( $.attr(this, 'href') ).offset().top{
+
+        }, 500);
+      });
+    </script>
+
+  </head>
+  <body>
+    <div class="sidebar">
+      <nav>
+        <a href="#page1" class="dot"><span>Intro</span></a>
+        <a href="#page2" class="dot"><span>About</span></a>
+        <a href="#page3" class="dot"><span>What I do</span></a>
+        <a href="#page4" class="dot"><span>Skills</span></a>
+        <a href="#page5" class="dot"><span>Experience</span></a>
+        <a href="#page6" class="dot"><span>Portfolio</span></a>
+        <a href="#page7" class="dot"><span>Contact</span></a>
+      </nav>
+    </div>
+    <section class="page1">
+    <div id="page1">
+      <a id="Intro" class="smooth"></a>
+      <div class="name">
+        <center><h1>Alice H. Xue</h1></center>
+        <center><h2>Student</h2></center>
+      </div>
+    </div>
+    </section>
+
+    <div id="arrow">
+      <a href="#page2" rel="">
+      <img src="arrow.png" style="width:3%";>
+    </a>
+    </div>
+
+
+    <section class="page2">
+    <div id="page2">
+      <a id="About" class="smooth"></a>
+      <h1>Hey, I'm Alice</h1>
+      <h2>I'm an incoming senior attending Centennial High School, and am focused in developing my computer science skills.</h2>
+      <p>This summer, I am participating in the Girls Who Code Summer Immersion program at the Georgetown School of Coninuing Studies in Washington D.C. The Summer Immersion Program is a 7-week program designed to teach students basic computer science skills.</p>
+      <p>In addition to computer science, my experiences throughout high school has sparked my interest in science and business. While participating in my school's Future Business Leaders of America club, I was able to gain knowledge from the various business topics used for competitive events. In addition, this past year I initiated the Research in Science and Engineering Conference, and rose to the challenge of gaining sponsorships, speakers, and organization/corporate exhibit booths. Through this experience I have been able to improve my communication skills contacting speakers and sponsorships, and my project management skills throughout the 5 month coordinating process.</p>
+    </div>
+    </section>
+
+    <section class="page3">
+    <div id="page3">
+      <a id="What I do" class="smooth"></a>
+      <h3>Listened to influential guest speakers</h3>
+      <h3>Created projects</h3>
+      <h3>Learned computer science concepts</h3>
+    </div>
+    </section>
+
+    <section class="page4">
+    <div id="page4">
+      <a id="Skills" class="smooth"></a>
+      <h2>Development</h2>
+      <p>Scratch</p>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>Python</p>
+      <h2>Tools</h2>
+      <p>Atom<p>
+      <p>Github</p>
+    </div>
+    </section>
+
+    <section class="page5">
+    <div id="page5">
+      <a id="Experience" class="smooth"></a>
+      <h2>Experience</h2>
+    </div>
+    </section>
+
+    <section class="page6">
+    <div id="page6">
+      <a id="Portfolio" class="smooth"></a>
+      <h2>Portfolio</h2>
+      <p>Projects utilize the core4 principles of computer science.</p>
+      <ul>
+        <li>variables</li>
+        <li>loops</li>
+        <li>conditionals</li>
+        <li>functions</li>
+      </ul>
+      <h3>Circuitry Challenge</h3>
+      <div class="container">
+        <img src="image.jpg" alt="Circuitry Challenge" class="image">
+        <div class="overlay">
+          <div class="text">Used a breadboard to create a circuit that turns on a lightbulb</div>
+        </div>
+      </div>
+      <h3>Dancing Robot</h3>
+      <video width="320" height="240" controls loop>
+        <source src="IMG_2692.mp4" type="video/mp4">
+      </video>
+      <h3>Image Recoloring</h3>
+      <div class="container">
+        <img src="IMG_2217.jpg" alt="Image Recoloring" class="image">
+        <div class="overlay">
+          <img src="recolored.jpg" alt="Image Recoloring" class="image">
+          <div class="text">Created a recoloring program in Python</div>
+        </div>
+      </div>
+      <h3>HTML Website</h3>
+      <div>
+          <a href="https://alice4500.github.io/musicVideo/AliceXue.html">
+            <img src="AlicePic1.jpg" alt="HTML Website" style="width:560px;height:400px;border:0;">
+          </a>
+      </div>
+    </div>
+    </section>
+
+    <section class="page7">
+    <div id="page7">
+      <a id="Contact" class="smooth"></a>
+      <h1>Get In Touch</h1>
+    </div>
+    </section>
+
+    <section class="footer">
+          <a href="mailto:alicex90@gmail.com">
+            <img class="resize" src="g4433_3_25.png" alt="Email" >
+          </a>
+          <a href="https://www.linkedin.com/in/alicex90">
+            <img class="resize" src="g4438_1_25.png" alt="Find me on Linkedin!">
+          </a>
+            <a href="https://github.com/alice4500">
+              <img class="resize" src="g4428_25.png" alt="Alice's Github">
+            </a>
+    </section>
+  </body>
+</html>
