@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+body {
+font-family: 'open sans';
+padding:0;
+margin:0;
+background-image: url("pic1.png");
+background-size: contain;
+background-position: center;
+height: 500px;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+z-index: 5;
+}
+
+
+/* SIDEBAR NAVIGATION */
+.dot {width:10px; height:10px; border-radius:10px; z-index:90000000000; color:transparent; font-size:14px; line-height:10px; vertical-align:middle; margin:5px 0 5px 0; }
+.dot:hover {background-color:rgba(255,255,255,.8); color:rgba(255,255,255,.8);}
+nav {width:100px; height:200px; padding:0 0px; position:fixed; top:50%; right:20px; transform: translate(0, -50%); z-index: 9000000000000; text-align:right;}*/
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+#page1 {
+  color: white;
+  padding-top:20px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
+
+.name {
+    color: black;
+    font-size: 50px;
+    margin-top: -100px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.nav {
+  float: right;
+  vertical-align: middle;
+  postion: fixed;
+
+
+}
+
+.dot{
+  padding:5px;
+  background-color: white;
+  border-radius: 50%;
+  display:block;
+  width:5px;
+  height:5px;
+  margin:5px;
+  margin-left:0;
+}
+
+#page2 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom:50px;
+}
+
+#page3 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom:50px;
+
+}
+
+#page4 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom:50px;
+
+}
+
+#page5 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom:50px;
+
+}
+
+#page6 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom:50px;
+
+
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#page7 {
+  padding-top:50px;
+  max-width: 960px;
+  margin: 0 auto;
+
+
+}
+
+#footer {
+  color: white;
+  display: inline;
+  width:20px;
+  height:20px;
+  margin: 0 5px;
+}
+
+
+
+/* ============================================================
+  SECTIONS
+=========================================================== */
+section.page1 {
+  height: 1100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+  /*http://callmenick.com/_development/simple-parallax-effect/*/
+}
+section.page2 {
+  background-color: #03256C;
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+
+}
+section.page3 {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+
+}
+section.page4 {
+  background-color: #2541B2;
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+section.page5 {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+section.page6 {
+  background-color: #00072D;
+  height: 2200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+section.page7 {
+  height: 800px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+}
+section.footer {
+  background-color: #2541B2;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+
+}
+
+.footer {
+  text-align:center;
+  padding-top: 20px;
+}
+.footer a {
+  display:inline-block;
+}
+
+.footer img {display:inline-block; float:left;}
